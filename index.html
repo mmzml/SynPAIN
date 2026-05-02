@@ -195,7 +195,35 @@
   </div>
 </section>
 
-
+<!-- Results -->
+ <section class="section is-small">
+  <div class="hero-body", style="margin-top: 2rem; margin-bottom: 2rem;">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered", style="margin-bottom: 4rem;">Results</h2>
+      <div class="container is-max-desktop", style="margin-bottom: 2rem;">
+        <div class="columns is-max-desktop is-vcentered">
+          <div class="column is-half has-text-centered">
+            <img src="./static/images/facequality.png" alt="Face Quality" style="max-width: 100%; height: auto;">
+            <p class="is-size-6" style="margin-top: 0.5rem;"><i>Average face quality score of SynPAIN images according to the <a href="https://dsl-fiqa.github.io/" target="_blank" rel="noopener noreferrer">DSL-FIQA</a> method. We interpret these scores according to the ACR(Absolute Category Rating) scale: Bad (0-0.2), Poor (0.2-0.4), Fair (0.4-0.6), Good (0.6-0.8), and Excellent (0.8-1.0). SynPAIN images demonstrate excellent face quality across demographics.</i></p>
+          </div>
+          <div class="column is-half has-text-centered">
+            <img src="./static/images/userstudy.png" alt="User Study" style="max-width: 100%; height: auto;">
+            <p class="is-size-6" style="margin-top: 0.5rem;"><i>Taking a representative sample of SynPAIN images, two raters correctly identified the gender, age group, ethnicity, and expression type of identities in most samples, while showing high inter-rater reliability (measured by Fleiss' Kappa).</i></p>
+          </div>
+        </div>
+        <div class="columns is-max-desktop is-vcentered">
+          <div class="column is-half has-text-centered">
+            <img src="./static/images/pspiscores.png" alt="PSPI Scores" style="max-width: 100%; height: auto;">
+            <p class="is-size-6" style="margin-top: 0.5rem;"><i>Distribution of PSPI scores calculated from FaceReader AU detections across expression conditions. Statistical significance was assessed using unpaired Mann-Whitney U-tests. Mean estimated PSPI scores are lowest for neutral expressions (2.9), followed by non-pain expressions (4.3), and highest for pain expressions (6.7).</i></p>
+          </div> 
+          <div class="column is-half has-text-centered">
+            <img src="./static/images/similarities.png" alt="Similarities" style="max-width: 100%; height: auto;">
+            <p class="is-size-6" style="margin-top: 0.5rem;"><i>Percentage of within-group similarities between SynPAIN images. Similarity was measured using cosine similarity of <a href="https://py-feat.org/pages/intro.html" target="_blank" rel="noopener noreferrer">PyFeat</a> encodings of facial identities. These findings suggest that SynPAIN maintains strong identity consistency across expressions.</i></p>
+          </div>
+      </div>
+    </div>
+  </div>
+ </section>
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
@@ -230,6 +258,9 @@
             This website is licensed under a <a rel="license"
                                                 href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            Website source code based on the <a href="https://nerfies.github.io/" class="external-link" target="_blank" rel="noopener noreferrer">Nerfies</a> project page.
           </p>
         </div>
       </div>
