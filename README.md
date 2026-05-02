@@ -1,6 +1,6 @@
 # Nerfies
 
-This is the repository that contains source code for the [SynPAIN website](https://www.mmmzml.github.io/SynPAIN).
+This is the repository that contains source code for the [SynPAIN website](https://mmzml.github.io/SynPAIN).
 
 If you find SynPAIN useful for your work please cite:
 ```
