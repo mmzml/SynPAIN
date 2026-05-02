@@ -36,6 +36,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="https://kit.fontawesome.com/36400c1f46.js" crossorigin="anonymous"></script>
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
@@ -136,7 +137,7 @@
                    target="_blank"
                    rel="noopener noreferrer">
                   <span class="icon">
-                      <i class="fab fa-github"></i>
+                      <i class="fa-brands fa-hugging-face"></i>
                   </span>
                   <span>Model</span>
                 </a>
@@ -195,9 +196,102 @@
   </div>
 </section>
 
+<!-- Dataset -->
+<section class="section is-small">
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3", style="margin-bottom: 4rem;">Dataset</h2>
+    <div class="columns is-max-desktop is-vcentered">
+      <div class="column is-fifth">
+        <img src="./static/images/faces/1000020580_NoPain_man_Young.jpg" alt="No Pain - Young Man" style="max-width: 100%; height: auto;">
+      </div>
+      <div class="column is-fifth">
+        <img src="./static/images/faces/1000128090_NoPain_man_Young.jpg" alt="No Pain - Young Man" style="max-width: 100%; height: auto;">
+      </div>
+      <div class="column is-fifth">
+        <img src="./static/images/faces/1001243070_NoPain_man_Old.jpg" alt="No Pain - Old Man" style="max-width: 100%; height: auto;">
+      </div>
+      <div class="column is-fifth">
+        <img src="./static/images/faces/1001316340_NoPain_man_Old.jpg" alt="No Pain - Old Man" style="max-width: 100%; height: auto;">
+      </div>
+      <div class="column is-fifth">
+        <img src="./static/images/faces/1010214830_NoPain_woman_Young.jpg" alt="No Pain - Young Woman" style="max-width: 100%; height: auto;">
+      </div>
+    </div>
+    <div class="columns is-max-desktop is-vcentered">
+      <div class="column is-fifth">
+        <img src="./static/images/faces/1010335660_NoPain_woman_Young.jpg" alt="No Pain - Young Woman" style="max-width: 100%; height: auto;">
+      </div>
+      <div class="column is-fifth">
+        <img src="./static/images/faces/1011111140_NoPain_woman_Old.jpg" alt="No Pain - Old Woman" style="max-width: 100%; height: auto;">
+      </div>
+      <div class="column is-fifth">
+        <img src="./static/images/faces/1011212890_NoPain_woman_Old.jpg" alt="No Pain - Old Woman" style="max-width: 100%; height: auto;">
+      </div>
+      <div class="column is-fifth">
+        <img src="./static/images/faces/1100252950_Pain_man_Young.jpg" alt="Pain - Young Man" style="max-width: 100%; height: auto;">
+      </div>
+      <div class="column is-fifth">
+        <img src="./static/images/faces/1100345860_Pain_man_Young.jpg" alt="Pain - Young Man" style="max-width: 100%; height: auto;">
+      </div>
+    </div>
+    <div class="columns is-max-desktop is-vcentered">
+      <div class="column is-fifth">
+        <img src="./static/images/faces/1101012621_Pain_Man_Old.jpg" alt="Pain - Old Man" style="max-width: 100%; height: auto;">
+      </div>
+      <div class="column is-fifth">
+        <img src="./static/images/faces/1101310071_Pain_Man_Old.jpg" alt="Pain - Old Man" style="max-width: 100%; height: auto;">
+      </div>
+      <div class="column is-fifth">
+        <img src="./static/images/faces/1110124850_Pain_woman_Young.jpg" alt="Pain - Young Woman" style="max-width: 100%; height: auto;">
+      </div>
+      <div class="column is-fifth">
+        <img src="./static/images/faces/1110331210_Pain_woman_Young.jpg" alt="Pain - Young Woman" style="max-width: 100%; height: auto;">
+      </div>
+      <div class="column is-fifth">
+        <img src="./static/images/faces/1111211701_Pain_Woman_Old.jpg" alt="Pain - Old Woman" style="max-width: 100%; height: auto;">
+      </div>
+    </div>
+    <p class="is-size-6" style="margin-top: 0.5rem; margin-bottom: 0.5rem;"><i>SynPAIN includes images of facial identities across various demographic groups, ensuring diverse representation in our synthetic dataset to address algorithmic bias.</i></p>
+
+    <div class="columns is-max-desktop is-vcentered" style="margin-top: 2.0rem;">
+      <div class="column is-fifth">
+        <video controls style="max-width: 100%; height: auto;">
+          <source src="./static/videos/1000235030_NoPain_man_Young.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="column is-fifth">
+        <video controls style="max-width: 100%; height: auto;">
+          <source src="./static/videos/1010015390_NoPain_woman_Young.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="column is-fifth">
+        <video controls style="max-width: 100%; height: auto;">
+          <source src="./static/videos/1101347180_Pain_man_Old.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="column is-fifth">
+        <video controls style="max-width: 100%; height: auto;">
+          <source src="./static/videos/1110016350_Pain_woman_Young.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="column is-fifth">
+        <video controls style="max-width: 100%; height: auto;">
+          <source src="./static/videos/1111317410_Pain_woman_Old.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+    <p class="is-size-6" style="margin-top: 0.5rem; margin-bottom: 0.5rem;"><i>SynPAIN also includes 5-second, 24 fps videos transitioning from neutral to expressive faces for 40 identities, representing one combination from each ethnicity/race, gender, expression type, and age group.</i></p>
+  </div>
+</section>
+
 <!-- Results -->
- <section class="section is-small">
-    <div class="container">
+ <section class="hero is-light is-small">
+    <div class="hero-body has-text-centered", style="padding-top: 2.0rem; padding-bottom: 2.0rem;">
       <h2 class="title is-3 has-text-centered", style="margin-bottom: 4rem;">Results</h2>
       <div class="container is-max-desktop">
         <div class="columns is-max-desktop is-vcentered">
@@ -219,8 +313,13 @@
             <img src="./static/images/similarities.png" alt="Similarities" style="max-width: 100%; height: auto;">
             <p class="is-size-6" style="margin-top: 0.5rem;"><i>Percentage of within-group similarities between SynPAIN images. Similarity was measured using cosine similarity of <a href="https://py-feat.org/pages/intro.html" target="_blank" rel="noopener noreferrer">PyFeat</a> encodings of facial identities. These findings suggest that SynPAIN maintains strong identity consistency across expressions.</i></p>
           </div>
+        </div>
+        <div class="column is-max-desktop has-text-centered">
+          <img src="./static/images/paindetectionperformance.png" alt="Pain Detection Performance" style="max-width: 100%; height: auto;">
+          <p class="is-size-6" style="margin-top: 0.5rem;"><i>Performance of the PwCT model, a SOTA pain detection model, when evaluated on a test set from the UofR dataset. Training configurations include "Real-Only" (i.e., the UNBC dataset and a training set from the UofR dataset) and "Real + SynPAIN Old" (i.e., the UNBC dataset, a training set from the UofR dataset, and all old identities from SynPAIN). Performance is measured by average precision (AP). These results show a statistically significant (p=0.024) improvement when SynPAIN is included in the training data. The improvement is also consistent across both subsets of the UofR dataset (i.e., healthy subjects and subjects with dementia).</i></p>
       </div>
     </div>
+  
  </section>
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
@@ -240,10 +339,10 @@
   <div class="container">
     <div class="content has-text-centered">
       <a class="icon-link" href="https://arxiv.org/abs/2507.19673" class="external-link" target="_blank" rel="noopener noreferrer">
-        <i class="fas fa-file-pdf"></i>
+        <i class="ai ai-arxiv"></i>
       </a>
       <a class="icon-link" href="https://huggingface.co/TaatiTeam/SynPAIN" class="external-link" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-github"></i>
+        <i class="fa-brands fa-hugging-face"></i>
       </a>
       <a class="icon-link" href="https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/WCXMAP" class="external-link" target="_blank" rel="noopener noreferrer">
         <i class="fa fa-database"></i>
