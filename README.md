@@ -1,14 +1,15 @@
 # Nerfies
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [SynPAIN website](https://www.mmmzml.github.io/SynPAIN).
 
-If you find Nerfies useful for your work please cite:
+If you find SynPAIN useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@article{synpain2024,
+  title     = {SynPAIN: A Synthetic Dataset of Pain and Non-Pain Facial Expressions},
+  author    = {Babak Taati and Muhammad Muzammil and Yasamin Zarghami and Abhishek Moturu and Amirhossein Kazerouni and Hailey Reimer and Alex Mihailidis and Thomas Hadjistavropoulos},
+  journal   = {arXiv},
+  year      = {2025},
+  url       = {https://arxiv.org/abs/2507.19673}
 }
 ```
 
